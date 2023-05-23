@@ -8,10 +8,17 @@
 # Вывод: 7 9 11 13 15
 
 
-array = []
-a1 = int(input('Ввести первый элемент: '))
-d = int(input('Введите разность: '))
-n = int(input('Введите количество элементов: '))
-for i in range(1, n + 1):
-    array.append(a1 + d * (i - 1))
-print(array)
+# array = []
+# a1 = int(input('Ввести первый элемент: '))
+# d = int(input('Введите разность: '))
+# n = int(input('Введите количество элементов: '))
+# for i in range(1, n + 1):
+#     array.append(a1 + d * (i - 1))
+# print(array)
+
+
+a1 = int(input())
+d = int(input())
+n = int(input())
+for i in range(n):
+    print(a1 + i * d)
