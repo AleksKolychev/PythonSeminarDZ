@@ -16,8 +16,7 @@ phrase = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
 words = phrase.split()
 print(words)
  
-list = [sum(x in 'аяоёуюыиэе' for x in lin)
-    for lin in words]
+list = [sum(x in 'аяоёуюыиэе' for x in lin) for lin in words]
 if len(set(list)) == 1:
     print('Парам пам-пам')  
 else: 
